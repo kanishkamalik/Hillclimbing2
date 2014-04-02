@@ -1,0 +1,10 @@
+Package: hillclimbing
+Type: Package
+Title: Hill Climbing Models
+Version: 1.0
+Date: 2014-04-01
+Author: Kanishka Malik
+Maintainer: Kanishka Malik <kanishkamalik@gmail.com>
+Description: implements the hill climbing models presented in the paper "Local Hillclimbing on an Economic Landscape" by David Kane
+License: GPL-2
+Depends: methods, ggplot2, ggtern, mvtnorm, splines, survival, TH.data, EMT, multcomp, rgl

@@ -1,0 +1,26 @@
+exportPattern("^[[:alpha:]]+")
+import(methods, ggplot2, ggtern, mvtnorm, splines, survival, TH.data, EMT, multcomp, rgl)
+exportMethods(
+    "allocationProfit",
+    "findNeighborhood",
+    "hillclimb",
+    "hillclimbboxplot",
+    "hillclimbtable",
+    "landscapePlot",
+    "standardError",
+    "twoD.simplex" 
+)
+exportClasses(
+    "climbingTools",
+     "hillclimbing" 
+)
+export(
+    allocationProfit,
+    findNeighborhood,
+    hillclimb,
+    hillclimbboxplot,
+    hillclimbtable,
+    landscapePlot,
+    standardError,
+    twoD.simplex
+)
